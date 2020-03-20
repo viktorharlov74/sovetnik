@@ -1495,7 +1495,15 @@ a.footer-href{
 		    border: 1px solid black;
 		}
     }
+	  @media(max-width: 370px){
 
+	  }
+	  @media(max-width: 360px){
+
+	  }
+	  @media(max-width: 350px){
+
+	  }
 
 	@media (max-width: 320px) {
 
