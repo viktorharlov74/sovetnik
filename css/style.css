@@ -1494,6 +1494,13 @@ a.footer-href{
 
 		max-height: 600px;
 	}
+	.container-fluid otziv{
+		max-height: 700px;
+	}
+			.footer {
+
+    		height: 489px;
+    	}
 
 }
 
@@ -1505,10 +1512,7 @@ a.footer-href{
 
 
    	@media(max-width: 393px){
-		.footer {
 
-    		height: 489px;
-    	}
     	.h2.title-worrk {
     		width: 100%;
     		margin: 0 auto;
