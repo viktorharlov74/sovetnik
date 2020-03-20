@@ -1408,12 +1408,18 @@ a.footer-href{
     	.blok-spec>.row{
    			margin: 0;
    			padding: 0;
+   			margin-top: 60px;
    		}
    		.blockitem {
 			margin: 0 auto;
 		}
 
+		.footer{
+			padding: 0px 5px;
+		}
+		.container.botom{
 
+		}
 
 	}
 
@@ -1424,8 +1430,24 @@ a.footer-href{
 
 
 
-   	@media(max-width: 390px){
+   	@media(max-width: 393px){
+		.footer {
 
+    		height: 489px;
+    	}
+    	.createTask.orange {
+
+		    width: 100%;
+		    max-width: 250px;
+		    height: auto;
+		    height: 56px;
+		    border-radius: 50px;
+		}
+    	.sovet,.hrefblock > .col-12 {
+
+    		margin-top: 20px;
+
+		}
    		
    		.headers{
    			margin: 0;
@@ -1439,6 +1461,7 @@ a.footer-href{
    		.blok-spec>.row{
    			margin: 0;
    			padding: 0;
+   			margin-top: 60px;
    		}
 
 		.container.bloks > .row{
