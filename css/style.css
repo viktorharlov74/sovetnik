@@ -1475,7 +1475,7 @@ a.footer-href{
     }
     .otziv-item {
 
-    width: 350px;
+    max-width: 340px;
 
 	}
 	.sliderblock {
@@ -1503,6 +1503,12 @@ a.footer-href{
     	}
 		h2.title-worrk {
 			width: 98%;
+		}
+
+	.otziv-item {
+
+    	width: 99%;
+
 		}
 }
 
