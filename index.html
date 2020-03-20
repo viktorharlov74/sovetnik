@@ -1,0 +1,691 @@
+   <!DOCTYPE html >
+<html lang="ru">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Я-Советник</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- 	<link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/style.css">
+	 <link rel="stylesheet" href="css/ownstyle/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/ownstyle/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+
+</head>
+<body>
+
+	<div class="container-fluid main-slider">
+		<div class="menu-mobile"><img src="img/menu.png" alt="меню"></div>
+		<div class="row header">
+			<div class=" col-xl-12 col-md-12 col-sm-12 col-12  ">
+				<div class="headerblock">	
+						<div class=" leftblock">
+							<a href="#"><img  class="logo" src="img/logosova.png" alt="Logo"></a>
+							<a href="#" class="create"> Создать задание</a>
+							<a href="#" class="howwork">Как это работает</a>
+						</div>
+						<div class="rightblock"> 
+							<button class="login opacity-white" >Стать специалистом</button>
+							<button class="login orange" >Войти</button>
+						</div>
+						<div style="clear: both;">	</div>
+				</div>
+				
+				<div class="mobileheader">					
+					<div class="col-sm-12 col-md-12 col-12 mx-auto center-text">
+						<a href="#"><img  class="logo" src="img/logosova.png" alt="Logo"></a>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div class="row searchform">
+			<div class=" col-xl-12 col-md-12 col-sm-12 col-12  ">
+				<h1 class="titleslider">
+					Выбирайте проверенных специалистов
+				</h1>
+			</div>
+			<div class=" col-xl-6 col-md-8 col-sm-10 col-12 offset-sm-1 offset-xl-3 offset-md-2 podzagolovokblock">
+				<h3 class="podzagolovok mx-auto">
+					Быстрый поиск профессиональных исполнителей для решения любых задач
+				</h3>
+			</div>
+			<div class=" col-xl-3 col-md-2 col-sm-1"></div>
+			<div class=" col-xl-12 col-md-12 col-sm-12 col-12  ">
+				<div class="ovalform mx-auto">
+					<input class="inputtext" id="Search_id" type="text" name="qu" value="" size="15" maxlength="50" placeholder="Напишите, кто может или чем вам помочь..." style="  line-height: normal;">
+					<button class="findstart orange" id="find">Искать</button>
+					<div style="clear: both;"></div>
+				</div>
+				
+			</div>
+
+			<div class=" col-xl-12 col-md-12 col-12 col-sm-12">
+				<h4 class="example mx-auto">
+					Например: юридическая консультация
+				</h4>
+			</div>
+			
+		</div>		
+	</div>
+
+
+
+
+	<div class="container how-work">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="title-worrk mx-auto">
+					Как это работает
+				</h2>
+				<h4 class="title-worrk center-text">простые шаги для поиска лучших специалистов</h4>
+			</div>
+		</div>
+		<div class="row block-how-work">
+
+			<div class=" col-xl-6 col-md-6 col-sm-12 col-12 tasksall">
+				<div class=" work-left img">
+					<img src="img/work1.jpg" alt="Создайте задание">
+				</div>	
+			</div>
+
+			<div class=" col-xl-6 col-md-6 col-sm-12 col-12  tasksall">
+				<div class="work-right block ">
+					<h4 class="workhead">1. Создайте задание</h4>
+					<h6 class="podhead">Опишите своими силами задачу, которую тербуется выполнить</h6>
+					<div class="buttonwork">
+						<button  id="createTask" class="login opacity-orange" >Создать задание</button>
+					</div>	
+				</div>				
+			</div>
+		</div>
+
+		<div class="row block-how-work">
+			<div class=" col-xl-6 col-md-6 col-sm-12 col-12 tasksall show-mobile">
+				<div class=" work-left img">
+					<img src="img/work2.png" alt="Получите предложение">
+				</div>	
+			</div>
+			<div class=" col-xl-6 col-md-6 col-sm-12 col-12 tasksall">
+				<div class="work-left block">
+					<h4 class="workhead">2. Получите предложение</h4>
+					<h6 class="podhead">Уже через пару минут исполнители сами откликнутся на ваш заказ.</h6>
+				</div>				
+			</div>
+			<div class=" col-xl-6 col-md-6 col-sm-12 col-12 tasksall hide-mobile">
+				<div class=" work-right img">
+					<img src="img/work2.png" alt="Получите предложение">
+				</div>	
+			</div>
+
+
+		</div>
+		<div class="row block-how-work">
+
+			<div class=" col-xl-6 col-md-6 col-sm-12 col-12 tasksall">
+				<div class=" work-left img ">
+					<img src="img/work3.png" alt=" Выберите лучшее предложение">
+				</div>	
+			</div>
+
+			<div class=" col-xl-6 col-md-6 col-sm-12 col-12  tasksall">
+				<div class="work-right block">
+					<h4 class="workhead">3. Выберите лучшее предложение</h4>
+					<h6 class="podhead">Выберите подходящего вам исполнителя по рейтингу, отзывам и цене</h6>
+				</div>				
+			</div>
+		</div>
+
+		<div class="row btn-block">
+			<div class="col-xl-6 col-md-8 offset-xl-3 offset-md-2 center-text col-sm-12 col-12">
+				<button class="createTask orange" id="createTask">Начните создавать задания прямо сейчас</button>
+					<h4 class="example black mx-auto">
+					и находите исполнителя за несколько минут
+				</h4>
+			</div>
+			<div class="col-xl-3 col-md-2"></div>
+
+		</div>
+	</div>
+	<div class="container-fluid line">
+		<img src="img/linetop3.png" alt="" style="width: 100%;">
+	</div>
+
+	<div class="container-fluid transform">
+		<div class="row">
+			<div class=" col-xl-12 col-md-12 headblock">
+				<h2 class="title-work mx-auto center-text">Преимущества на Я-Советник</h2>
+				<h4 class="title-worrk center-text">простые шаги для поиска лучших специалистов</h4>
+			</div>				
+		</div>
+		<div class="row primuch">
+			<div class="container bloks ">
+				<div id="owl-carousel-1" class="row owl-carousel">
+					<div class="col-md-4 col-sm-12 col-12  blockitem  item marg">
+						<div class="imgblocknew">
+							<img class="imgitem" src="img/block1.png" alt="block1">
+						</div>
+						<h3 class="title-block">Выгодные цены</h3>
+						<p class="p-block center-text">Вы получаете несколько предложений 
+							от исполнителей конкурирующих друг 
+						с другом, а значит можете выбрать самое лучшее предложение цены</p>
+
+					</div>
+					<div class="col-md-4 col-sm-12  col-12  blockitem item marg"  style="text-align: center;">
+						<div class="imgblocknew-two">
+							<img class="imgitem" src="img/block2.png" alt="block2">
+						</div>
+						<h3 class="title-block">Проверенные исполнители</h3>
+						<p class="p-block center-text">Все исполнители Я–Советник проходят процедуру верификации, мы проверяем отзывы, разбираемся 
+с жалобами и контролируем качество их работы.</p>
+
+					</div>			
+					<div class="col-md-4 col-sm-12  col-12  blockitem  item">
+						<div class="imgblocknew">
+							<img class="imgitem" src="img/block3.png" alt="block3">
+						</div>
+						<h3 class="title-block">Экономия вашего времени</h3>
+						<p class="p-block center-text">На Я–Советник вы можете найти подходящего исполнителя 
+за несколько минут. Многие из них готовы приступить к работе в тот же день, а иногда в тот же час.</p>
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+	<div class="container-fluid line">
+		<img src="img/linebotom2.png" alt="" style="width: 100%;">
+	</div>
+
+	<div class="container blok-spec">
+		<div class="row head">
+			<div class="col-xl-12 col-md-12 col-sm-12 col-12 ">
+				<h2 class="title-work mx-auto center-text">Более 1 500 000 специалистов</h2>
+				<h4 class="title-worrk center-text">готовы помочь вам прямо сейчас </h4>
+			</div>				
+		</div>
+		<div class="row listspec">
+			<div class="col-xl-4 col-md-6 col-sm-12 col-12 spec">
+				<div class="liblock">
+					<div class="iconsimg"><img src="img/icons/law_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Юридические услуги</h3><h4>258 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="liblock">
+					<div class="iconsimg"><img src="img/icons/money_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Финансовые услуги</h3><h4>1004 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="liblock hidemobile">
+					<div class="iconsimg"><img src="img/icons/graduation-hat_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Репетиторы и обучение</h3><h4>856 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="liblock hidemobile">
+					<div class="iconsimg"><img src="img/icons/moisturizer_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Красота и здоровье</h3><h4>103 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="liblock showmobile">
+					<div class="iconsimg"><img src="img/icons/house_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Уборка и бытовые услуги</h3><h4>600 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-md-6 col-sm-12 col-12">
+				<div class="liblock">
+						<div class="iconsimg"><img src="img/icons/web_64.png" alt="Иконка"></div>
+						<div class="left-li-text"><h3>Веб-разработка</h3><h4>956 Исполнителей</h4></div>
+						<div style="clear: both;"></div>
+					</div>
+				<div class="liblock ">
+						<div class="iconsimg"><img src="img/icons/paint_64.png" alt="Иконка"></div>
+						<div class="left-li-text"><h3>Дизайн</h3><h4>654 исполнителей</h4></div>
+						<div style="clear: both;"></div>
+				</div>
+				<div class="liblock hidemobile">
+					<div class="iconsimg"><img src="img/icons/camera_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Фото- и видеоуслуги</h3><h4>368 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+
+				<div class="liblock hidemobile">
+					<div class="iconsimg"><img src="img/icons/device_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Компьютеры и IT</h3><h4>405 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="liblock showmobile">
+					<div class="iconsimg"><img src="img/icons/other_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Все категории</h3><h4>более 10 000 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-md-6 col-sm-10 col-12  spec hidemobile">
+				<div class="liblock">
+					<div class="iconsimg"><img src="img/icons/house_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Уборка и бытовые услуги</h3><h4>600 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="liblock">
+					<div class="iconsimg"><img src="img/icons/delivery_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Перевозки и курьеры</h3><h4>489 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="liblock">
+					<div class="iconsimg"><img src="img/icons/сustomer-support_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Установка и ремонт техники</h3><h4>886 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="liblock">
+					<div class="iconsimg"><img src="img/icons/other_64.png" alt="Иконка"></div>
+					<div class="left-li-text"><h3>Все категории</h3><h4>более 10 000 исполнителей</h4></div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container-fluid line">
+		<img src="img/linetop3.png" alt="" style="width: 100%;">
+	</div>
+	<div class="container-fluid otziv">
+		<div class="row ">
+			<div class=" col-xl-12 col-md-12  ">
+				<h2 class="title-work mx-auto center-text">Что говорят наши пользователи</h2>
+				<h4 class="title-worrk center-text align-self-center" >Я-Советник работает с более 100 000 пользователей в России 
+и постоянно разрабатывает новые решения, чтобы сделать сервис еще более удобным и продвинутым.</h4>
+			</div>				
+		</div>
+		<div  id="owl-carousel-2" class="row owl-carousel">
+
+			<div class="col-md-4  item itemblock" style="margin-right: 20px;">
+				<div class="otziv-item">
+					<div class="avatarblock">
+						<img class="avatar" src="img/people/juli.png" alt="block1">
+					</div>
+					<div class="blockotziv">
+						<h4 class="name">Юлия Никольская, г. Челябинск</h4>
+						<p class="sliderblock" >Очень понимающий человек, поняла и приняла мою ситуацию и потихоньку исправляем. Все очень понятно обьясняет. Был первый урок и я уже вижу результат. Буду продолжать ходить к ней.</p>
+						<p class="greysliderblock">
+							сегодня
+						</p>
+						<p class="greysliderblock">
+							Оценка: 5+
+						</p>
+						<p class="greysliderblock">
+							Услуга заказа: Обучение и репетиторы
+						</p>
+						<p class="greysliderblock">
+							Исполнитель: Ольга Петровна
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4  item itemblock" style="margin-right: 20px;">
+				<div class="otziv-item">
+					<div class="avatarblock">
+						<img class="avatar" src="img/people/misha.png" alt="block1">
+					</div>
+					<div class="blockotziv">
+						<h4 class="name">Михаил Чумаков, г. Екатеринбург</h4>
+						<p class="sliderblock" >Отличный мастер! Прибыл точно ко времени и подготовленный - все запчасти для ремонта с собой. Заодно отрегулировал шкаф-купе бонусом. Настоятельно рекомендую для ремонта мебели</p>
+						<p class="greysliderblock">
+							20 февраля 2020 г.
+						</p>
+						<p class="greysliderblock">
+							Оценка: 5+
+						</p>
+						<p class="greysliderblock">
+							Услуга заказа: Ремонт и реставрация мебели
+						</p>
+						<p class="greysliderblock">
+							Исполнитель: Петр Иванов
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4  item itemblock" style="margin-right: 20px;">
+				<div class="otziv-item">
+					<div class="avatarblock">
+						<img class="avatar" src="img/people/geny.png" alt="block1">
+					</div>
+					<div class="blockotziv">
+						<h4 class="name">Евгений Коробов, г. Екатеринбург</h4>
+						<p class="sliderblock" >“Отличный специалист! Готов рекомендовать всем друзьям и знакомым.</p>
+						<p class="greysliderblock">
+							06 февраля 2020 г.
+						</p>
+						<p class="greysliderblock">
+							Оценка: 5+
+						</p>
+						<p class="greysliderblock">
+							Услуга заказа: Юридическая помощь
+						</p>
+						<p class="greysliderblock">
+							Исполнитель: Иван Олегович
+						</p>
+					</div>
+				</div>
+			</div>			
+			<div class="col-md-4  item itemblock" style="margin-right: 20px;">
+				<div class="otziv-item">	
+					<div class="avatarblock">
+						<img class="avatar" src="img/people/marina.png" alt="block1">
+					</div>
+					<div class="blockotziv">
+						<h4 class="name">Марина Николаева, г. Челябинск</h4>
+						<p class="sliderblock" >“Великолепный профессионал!!! Помог решить проблемы с учетом. Объясняет все доступно, понятно и доброжелательно.</p>
+						<p class="greysliderblock">
+						10 октября 2019 г.
+						</p>
+						<p class="greysliderblock">
+							Оценка: 5+
+						</p>
+						<p class="greysliderblock">
+							Услуга заказа: Бухгалтерский учет и налогообложение
+						</p>
+						<p class="greysliderblock">
+							Исполнитель: Петр Олегович
+						</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-md-4  item itemblock" style="margin-right: 20px;">
+				<div class="otziv-item">
+					<div class="avatarblock">
+						<img class="avatar" src="img/people/misha.png" alt="block1">
+					</div>
+					<div class="blockotziv">
+						<h4 class="name">Михаил Чумаков, г. Екатеринбург</h4>
+						<p class="sliderblock" >Отличный мастер! Прибыл точно ко времени и подготовленный - все запчасти для ремонта с собой. Заодно отрегулировал шкаф-купе бонусом. Настоятельно рекомендую для ремонта мебели</p>
+						<p class="greysliderblock">
+							20 февраля 2020 г.
+						</p>
+						<p class="greysliderblock">
+							Оценка: 5+
+						</p>
+						<p class="greysliderblock">
+							Услуга заказа: Ремонт и реставрация мебели
+						</p>
+						<p class="greysliderblock">
+							Исполнитель: Петр Иванов
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		
+	</div>
+	<div class="container-fluid line">
+		<img src="img/linebotom2.png" alt="" style="width: 100%;">
+	</div>
+
+	<div class="container end-form">
+		<div class="row">
+			<div class="col-md-6 offset-md-3 col-12 col-sm-12">
+				<h2 class="title-work mx-auto center-text">Еще не создали задание?</h2>
+				<h4 class="title-worrk center-text">Всё очень просто: описываете задачу, указываете цену и всего 
+за пару минут сервис найдёт исполнителя. Вы платите только если работа сделана, и вы довольны результатом</h4>
+				<div class=" mx-auto" style="width: 205px; text-align: center;">
+					<button class="createTask orange" id="createTask" style="text-align: center;">Создать задание</button>
+				</div>
+			
+			</div>
+			<div class="col-md-3"></div>			
+		</div>
+	</div>
+
+	<div class="container-fluid footer">
+		<div class="container botom">
+			<div class="row">
+				<div class=" col-md-12 col-sm-12 col-12 show-ipad">
+					<div class="row icons">
+						
+						<div class="col-md-1 col-sm-1 col-2 icon"><a href=""><img src="img/vk.png" alt="vk"></a></div>
+						<div class="col-md-1 col-sm-1 col-2  icon"><a href=""><img src="img/facebook.png" alt="fb"></a></div>
+						<div class="col-md-1 col-sm-1 col-2 "><a href=""><img src="img/instagram.png" alt="inst"></a></div>
+						<div class=" col-xl-6 col-md-6 "></div>
+
+					</div>
+			    </div>
+				<div class=" col-xl-7 col-md-9 col-sm-12 col-12">
+					<div class="row hrefblock">
+						<div class="col-xl-4 col-md-4 col-sm-6 col-6"><a href="#" class="footer-href">Создать задание</a></div>
+						<div class="col-xl-4 col-md-4 col-sm-6 col-6"><a href="#" class="footer-href">Отзывы</a></div>
+						<div class="col-xl-4 col-md-4 col-sm-6 col-6"><a href="#" class="footer-href">Стать исполнителем</a></div>
+						<div class="col-xl-4 col-md-4 col-sm-6 col-6"><a href="#" class="footer-href">Как это работает</a></div>
+						<div class="col-xl-4 col-md-4 col-sm-6 col-6"><a href="#" class="footer-href">Обратная связь</a></div>
+						<div class="col-xl-4 col-md-4 col-sm-6 col-6"><a href="#" class="footer-href">О сервисе</a></div>
+
+					</div>
+				</div>
+				<div class=" col-xl-5 col-md-4 hidemobile">
+					<div class="row icons">
+						<div class=" col-xl-6 col-md-6 "></div>
+						<div class="col-xl-1 icon"><a href=""><img src="img/vk.png" alt="vk"></a></div>
+						<div class="col-xl-1 icon"><a href=""><img src="img/facebook.png" alt="fb"></a></div>
+						<div class="col-xl-1"><a href=""><img src="img/instagram.png" alt="inst"></a></div>
+
+					</div>
+				</div>
+			</div>
+			<hr class="footer-hr">
+				<div class="row end">
+					<div class=" col-xl-7 col-md-10 col-sm-12 col-12">
+						<div class="row 	">
+							<div class="col-xl-8 col-md-8 col-sm-8 col-8"><a href="#" class="footer-href">Пользовательское соглашение</a></div>
+							<div class="col-xl-4 col-md-4  col-sm-4 col-4 sovet"><a href="#" class="footer-href">© 2017 Я-Советник</a></div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+<!-- 	 <div class="home-demo">
+      <div class="row">
+        <div class="large-12 columns">
+          <h3>Demo</h3>
+          <div class="owl-carousel">
+            <div class="item">
+              <h2>Swipe</h2>
+            </div>
+            <div class="item">
+              <h2>Drag</h2>
+            </div>
+            <div class="item">
+              <h2>Responsive</h2>
+            </div>
+            <div class="item">
+              <h2>CSS3</h2>
+            </div>
+            <div class="item">
+              <h2>Fast</h2>
+            </div>
+            <div class="item">
+              <h2>Easy</h2>
+            </div>
+            <div class="item">
+              <h2>Free</h2>
+            </div>
+            <div class="item">
+              <h2>Upgradable</h2>
+            </div>
+            <div class="item">
+              <h2>Tons of options</h2>
+            </div>
+            <div class="item">
+              <h2>Infinity</h2>
+            </div>
+            <div class="item">
+              <h2>Auto Width</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+</body>
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/vendors/highlight.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script> -->
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+
+
+      var slider=$('#owl-carousel-1');
+      slider.owlCarousel({
+        margin: 19,
+        autoWidth: true,
+
+        dots: false,
+        nav: false,
+        responsive: {
+          0: {
+            items:1,
+          	nav: true,
+            navText: ['<','>'],
+        	autoWidth: false,
+			autoHeight:false,
+			margin: 0,
+          },
+          576:{
+          	items:1,
+          	nav: true,
+            navText: ['<','>'],
+        	autoWidth: false,
+			autoHeight:false,
+			margin: 0,
+          },
+          768:{
+          	items:2,
+          	nav: true,
+            navText: ['<','>'],
+        	autoWidth: true,
+			autoHeight:false,
+
+          },
+          1024: {
+            items: 2,
+            loop: false,
+            nav:true,
+            navText: ['<','>'],
+        	autoWidth: true,
+			autoHeight:false,
+          },
+          1440:{
+          	items: 3,
+          	dots: false,
+          	nav: false,
+          },
+          1920: {
+            items: 3,
+            dots: false,
+            nav: false,
+          }
+        }
+      });
+
+      var owl = $('#owl-carousel-2');
+      owl.owlCarousel({
+
+        loop: true,
+        items: 1,
+        dots: true,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          576:{
+          	margin: 30,
+          	items:2,
+          	nav: true,
+            navText: ['<','>'],
+        	autoWidth: true,
+			autoHeight:false,
+          },
+          768: {
+          	margin: 30,
+          	items: 1,
+          	loop: false,
+          	dots: true,
+            nav: true,
+            navText: ['<','>'],
+        	autoWidth: true,
+			autoHeight:false,
+          },
+          1023:{
+          	margin: 30,
+          	items: 2,
+          	loop: false,
+          	dots: true,
+            nav: true,
+            navText: ['<','>'],
+        	autoWidth: true,
+			autoHeight:false,
+          },
+          1200:{
+          	 items: 4,
+          	dots: true,
+            nav: true,
+            navText: ['<','>'],
+        	autoWidth: true,
+			autoHeight:false,
+          },
+          1440:{
+          	items: 4,
+          	dots: true,
+            nav: true,
+            navText: ['<','>'],
+        	autoWidth: true,
+			autoHeight:false,
+          },
+          1920: {
+            items: 4,
+            dots: true,
+            nav: true,
+            navText: ['<','>'],
+        	autoWidth: true,
+			autoHeight:false,
+          }
+        }
+	});
+
+
+    $(window).on('load resize', function() {
+        
+        var width = $(window).width();
+        if (width<=576){
+        	$('.inputtext').attr("placeholder","Чем вам помочь...");
+        }
+      });
+
+  });
+</script>
+</html>
