@@ -304,7 +304,7 @@
 		</div>
 	</div>
 
-<!-- 	<div class="container-fluid line">
+	<div class="container-fluid line">
 		<img src="img/linetop3.png" alt="кривая_линия" class="lineimg hide-mobile" style="width: 100%;">
 		<img src="img/top_mobile_line.png" class=" lineimg show-mobile" alt="кривая_линия">
 	</div>
@@ -436,19 +436,18 @@
 				</div>
 			</div>
 
-
 		</div>
 		
 	</div>
 	<div class="container-fluid line">
-		<img src="img/linebotom2.png" alt="Кривая линия"  class=" lineimg hide-mobile" style="width:100%:">
+		<img src="img/linebotom2.png" alt="Кривая линия"  class=" lineimg hide-mobile" style="width:100%;">
 		<img src="img/button_mobile_line.png"  class=" lineimg show-mobile" alt="Кривая линия" >
 
-	</div> -->
+	</div>
 
 	<div class="container end-form">
 		<div class="row">
-			<div class="col-md-6 offset-md-3 col-12 col-sm-12">
+			<div class="col-md-8 offset-md-2 col-12 col-sm-12">
 				<h2 class="title-work mx-auto center-text">Еще не создали задание?</h2>
 				<h4 class="title-worrk center-text">Всё очень просто: описываете задачу, указываете цену и всего 
 за пару минут сервис найдёт исполнителя. Вы платите только если работа сделана, и вы довольны результатом</h4>
@@ -637,7 +636,11 @@
         nav: true,
         responsive: {
           0: {
-            items: 1
+            items: 1,
+            nav: true,
+            navText: ['<','>'],
+        	autoWidth: true,
+			autoHeight:false,
           },
           576:{
           	margin: 30,

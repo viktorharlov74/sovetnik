@@ -833,6 +833,7 @@ a.footer-href{
 		.listspec{
 			width: 100%;
 			margin: 0 auto;
+			margin-top: 80px;
 		}
 		.listspec > .col-md-6 {
 
@@ -1017,14 +1018,27 @@ a.footer-href{
     		width: 70px;
 		}
 		#owl-carousel-2.owl-theme .owl-dots {
-			width: 80%;
+			width: 100%;
+			text-align: center;
+			margin: 0 auto;
+			float: unset;
 
 		}
 		#owl-carousel-2.owl-theme .owl-nav{
-			width: 20%;
+		text-align: center;
+		margin: 0 auto;
+		float: unset;
+		position: absolute;
+		left: 18%;
+		width: 50%;
+		top: 570px;
 		}
 		.spec {
 		    margin-right: 5%;
+		}
+
+		.container-fluid.otziv{
+			padding-bottom: 100px;
 		}
 
 	}
@@ -1157,11 +1171,15 @@ a.footer-href{
 
 
 		#owl-carousel-2.owl-theme .owl-dots {
-			width: 75%;
+			width: 100%;
+			float: unset;
+			text-align: center;
+			margin:0 auto;
 
 		}
 		#owl-carousel-2.owl-theme .owl-nav{
-			width: 25%;
+		top:520px;
+
 		}
    		.listspec > .col-md-6 {
 		    padding: 0px;
@@ -1304,6 +1322,12 @@ a.footer-href{
 		.line{
 
 		}
+	#owl-carousel-2.owl-carousel.owl-loaded {
+
+	    width: 95%;
+	    margin-left: 5%;
+
+	}
 
 		/*		div.owl-nav{
 			margin-left: -25%;
@@ -1325,7 +1349,7 @@ a.footer-href{
     		margin-top: 20px;
 		}
 		.transform{
-			margin-bottom: 40px;
+			padding-bottom: 40px;
 		}
 		.lineimg.show-mobile{
 			display: block;
@@ -1421,7 +1445,57 @@ a.footer-href{
 
 		}
 
+		
+		.blockotziv {
+
+		    height: 442px;
+		    width: 298px;
+		    padding-top: 90px;
+		}
+
+		.itemblock {
+
+		    width: 100%;
+		    max-width: 340px;
+
+		}
+		.itemblock {
+
+		    height: 452px;
+
+		}
+		.sliderblock {
+
+    	text-align: left;
+    	width: 258px;
+    }
+    .name,.greysliderblock {
+    	width: 258px;
+    	margin-left: 20px;
+    }
+    .otziv-item {
+
+    width: 350px;
+
 	}
+	.sliderblock {
+		height: 168px;
+	}
+
+	#owl-carousel-2>.owl-stage-outer>.owl-stage>.owl-item {
+
+    /*width: 342px !important;*/
+    /*background-color: red;*/
+    height: 590px;
+	margin-bottom: 0px;
+	margin-top: -50px;
+	}
+	#owl-carousel-2>.owl-stage-outer>.owl-stage{
+
+		max-height: 600px;
+	}
+
+}
 
 
 
@@ -1434,6 +1508,10 @@ a.footer-href{
 		.footer {
 
     		height: 489px;
+    	}
+    	.h2.title-worrk {
+    		width: 100%;
+    		margin: 0 auto;
     	}
     	.createTask.orange {
 
@@ -1468,7 +1546,7 @@ a.footer-href{
 			width: 100% !important;
 			margin: 0 auto;
 			padding-left: 0;
-			border: 1px solid black;
+			/*border: 1px solid black;*/
 		}
 
 
@@ -1499,6 +1577,11 @@ a.footer-href{
 		.imgblocknew {
     		max-width: 230px;
 		}
+		.owl-item.active {
+    		width: 340px !important;
+    		margin-left: 6px;
+		}
+
 	}
 
     @media(max-width: 380px){
@@ -1515,7 +1598,7 @@ a.footer-href{
 		    width: 100% !important;
 		    margin: 0 auto;
 		    padding-left: 0;
-		    border: 1px solid black;
+		    /*border: 1px solid black;*/
 		}
     }
 	  @media(max-width: 370px){
