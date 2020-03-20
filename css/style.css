@@ -19,7 +19,7 @@ p{
 	color: #1A1A1A;
 }
 
-	h1,h2,h3,h4,p{
+/*	h1,h2,h3,h4,p{
 	border: 1px solid orange;
 }
 div{
@@ -28,7 +28,7 @@ div{
 body{
 	border: 1px solid green;
 }
-
+*/
 
 
 .leftblock > a{
@@ -118,7 +118,7 @@ input.inputtext:focus {
 }
 
 .marg{
-	margin-right: 19px;
+	margin-right: 0px;
 
 }
 
