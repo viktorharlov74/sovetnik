@@ -737,6 +737,7 @@ a.footer-href{
 
 
    	@media (max-width: 1024px) {
+
    		 .menu-block{
     		width: 98%;
     		max-width: 476px;
@@ -774,6 +775,10 @@ a.footer-href{
 		}
 		.icons-li >img{
 			margin-top: -1px;
+		}
+		li {
+			list-style-image: url(../img/icons/Ellipse.png);
+			list-style: #E6E6E6;
 		}
 		.icons-menu{
 			width: 255px;
@@ -902,8 +907,8 @@ a.footer-href{
     	.menu-mobile{
     		display: block;
     		position: absolute;
-			width: 84px;
-			height: 75px;
+			width: 91px;
+			height: 76px;
 			left: 0px;
 			top: 0px;
 			background: url(../img/menu/768.png);
@@ -1001,6 +1006,7 @@ a.footer-href{
 		#owl-carousel-1.owl-theme .owl-nav [class*="owl-"]:hover {
 			opacity: 0.5;
 		}
+
 		.example.black{
 			width: 80%;
 			margin: 0 auto;
@@ -1167,6 +1173,7 @@ a.footer-href{
    		.how-work{
    			margin-top: 60px;
    		}
+
    		h2.title-work{
    			margin-top: 20px;
    		}
@@ -1199,9 +1206,10 @@ a.footer-href{
    		.show-mobile{
    			display: block;
    		}
-   		.	{
-   			display: none;
-   		}
+
+   		.litle-bg{
+			display: none;
+		}
    		.createTask.orange {
    			margin-top: 60px;
    		}
@@ -1225,6 +1233,9 @@ a.footer-href{
 
 
     @media (max-width: 576px) {
+    	.litle-bg{
+			display: block;
+		}
     	.menu-mobile{
     		width: 59px;
 			height: 49px;
@@ -1727,6 +1738,9 @@ a.footer-href{
 
 
 		}
+		.blok-spec {
+			padding-top: 10px;
+		}
     	
 		.blockitem {
     		width: 100%;
@@ -1812,6 +1826,7 @@ a.footer-href{
 		.how-work .row{
 			padding: 0;
 			margin: 0;
+			margin-bottom: 50px;
 		}
 		.container.bloks{
 			max-width: 300px !important;
