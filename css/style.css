@@ -307,7 +307,7 @@ h6.podhead{
 
 .container.bloks>.row{
 	width: 100%;
-	max-width: 1320px !important;
+	max-width: 1325	px !important;
 	margin: 0;
 
 }
@@ -731,6 +731,9 @@ a.footer-href{
 			width: 500px;
 			height: 100px;
 		}
+	   	.blockitem{
+	   		max-width: 340px;
+	   	}
    	}	
 
 
@@ -1003,6 +1006,9 @@ a.footer-href{
 
 
 	@media (max-width: 768px) {
+		h1.titleslider {
+			width: 90%;
+		}
 		#owl-carousel-1.owl-theme .owl-nav [class*="owl-"]:hover {
 			opacity: 0.5;
 		}
@@ -1301,10 +1307,10 @@ a.footer-href{
 			margin:0 auto;
 
 		}
-		#owl-carousel-2.owl-theme .owl-nav{
-			top:520px;
-			left: 25%;
 
+		#owl-carousel-2.owl-theme .owl-nav {
+		    top: 560px;
+		    left: 18%;
 		}
    		.listspec > .col-md-6 {
 		    padding: 0px;
@@ -1454,6 +1460,11 @@ a.footer-href{
 	    margin-left: 4%;
 
 	}
+			#owl-carousel-2.owl-theme .owl-nav{
+			top:520px;
+			left: 23%;
+
+		}
 
 		/*		div.owl-nav{
 			margin-left: -25%;
