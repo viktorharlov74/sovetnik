@@ -13,14 +13,53 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script  src="js/jquery.min.js"></script>
+    <script  src="js/owl.carousel.js"></script>
 
 </head>
 <body>
+	<div class="menu-block">
+		<div class="menu-header"><a href="#"><img class="logo" src="img/black_logo.png" alt="Logo"></a>
+			</div>
+		<div class="menu-main">
+			<div class="border-bt align-self-center">
+				<div class="content-li align-self-center">
+					<span class="icons-li"><img src="img/icons/Login ico.png" alt="ico"></span><a href="#">Войти</a>
+				</div>
+			</div>
+			<div class="border-bt align-self-center">
+				<div class="content-li align-self-center">
+					<span class="icons-li"><img src="img/icons/Frame _ico.png" alt="ico">
+					</span>
+					<a  href="#">Стать исполнителем</a>
+				</div>
+			</div>
+			<ul style="padding-left: 20px;"><li class="noborder"><a href="#" class="href-li">Создать задание</a></li>
+			<li class="noborder"><a href="#" class="href-li">Как это работает</a></li>
+			</ul>
+		</div>
+		<div class="menu-footer">
+			<div class="container">
+					<div class="row icons-menu">
+						
+						<div class="col-md-4  col-sm-4 col-4 " ><a href=""><img src="img/vk.png" alt="vk"></a></div>
+						<div class="col-md-4  col-sm-4 col-4 "><a href=""><img src="img/facebook.png" alt="fb"></a></div>
+						<div class="col-md-4  col-sm-4 col-4 "><a href=""><img src="img/instagram.png" alt="inst"></a></div>
+						
 
+					</div>
+			</div>
+
+		</div>
+	</div>
 	<div class="container-fluid main-slider">
-		<div class="menu-mobile"><img src="img/menu.png" alt="меню"></div>
+		<div class="menu-mobile">
+			<img src="img/menu/burgreg_big.png" alt="burger" class="burger big-bg hide-mobile">
+			<img src="img/menu/burger_litle.png" class="burger show-mobile litle-bg"  alt="burger" >
+			<img src="img/menu/close.png" class="close-menu"  alt="close" >
+
+
+		</div>
 		<div class="row header">
 			<div class=" col-xl-12 col-md-12 col-sm-12 col-12  ">
 				<div class="headerblock">	
@@ -320,7 +359,7 @@
 		</div>
 		<div  id="owl-carousel-2" class="row owl-carousel ">
 
-			<div class="col-md-4  item itemblock" style="margin-right: 20px;">
+			<div class="col-md-4  item itemblock" >
 				<div class="otziv-item">
 					<div class="avatarblock">
 						<img class="avatar" src="img/people/juli.png" alt="block1">
@@ -343,7 +382,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4  item itemblock" style="margin-right: 20px;">
+			<div class="col-md-4  item itemblock">
 				<div class="otziv-item">
 					<div class="avatarblock">
 						<img class="avatar" src="img/people/misha.png" alt="block1">
@@ -414,7 +453,7 @@
 
 			</div>
 
-			<div class="col-md-4  item itemblock" style="margin-right: 20px;">
+			<div class="col-md-4  item itemblock">
 				<div class="otziv-item">
 					<div class="avatarblock">
 						<img class="avatar" src="img/people/misha.png" alt="block1">
@@ -563,7 +602,7 @@
     <script src="assets/vendors/highlight.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/owlcarousel/owl.carousel.js"></script> -->
-<script type="text/javascript">
+<script>
 	
 	$(document).ready(function(){
 
@@ -601,7 +640,7 @@
 			margin: 0,
           },
           768:{
-          	items:2,
+          	items:1,
           	nav: true,
             navText: ['<','>'],
         	autoWidth: true,
@@ -654,10 +693,10 @@
           },
           576:{
           	margin: 30,
-          	items:2,
+          	items:1,
           	nav: true,
             navText: ['<','>'],
-        	autoWidth: true,
+        	autoWidth: false,
 			autoHeight:false,
           },
           768: {
@@ -716,5 +755,23 @@
         }
 
   });
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		        var width = $(window).width();
+			$('.menu-mobile').click(function(){
+				
+				if (width<=576){
+					$('.burger.litle-bg').fadeToggle(150);
+				}
+				else{
+					$('.burger.big-bg').fadeToggle(150);
+					}
+				$('.close-menu').fadeToggle(400);
+				$('.menu-block').fadeToggle(400);
+
+			});
+	});
 </script>
 </html>
