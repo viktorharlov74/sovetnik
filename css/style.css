@@ -30,8 +30,8 @@ div{
 }
 body{
 	border: 1px solid green;
-}
-*/
+}*/
+
 
 
 .leftblock > a{
@@ -108,7 +108,7 @@ h4.example{
 	float: left;
 
 }
-input.inputtext:focus {
+button,input.inputtext:focus {
 	    outline-style: none;
 }
 .inputtext::placeholder{
@@ -1232,9 +1232,6 @@ a.footer-href{
 			top: 0px;
 			background: url(../img/menu/320.png);
     	}
-    	.menu-mobile:hover,.burger:hover{
-    		opacity: 0.6;
-    	}
     	.close-menu,.burger{
     		margin-top: 15px; margin-left: 15px;	
     	}
@@ -1294,7 +1291,8 @@ a.footer-href{
 
 		}
 		#owl-carousel-2.owl-theme .owl-nav{
-		top:520px;
+			top:520px;
+			left: 25%;
 
 		}
    		.listspec > .col-md-6 {
@@ -1386,7 +1384,7 @@ a.footer-href{
    		}
 
    		.row.end{
-   			padding-bottom: 0px;
+   			padding-bottom: 40px;
    		}
    		.container.bloks {
 
@@ -1441,8 +1439,8 @@ a.footer-href{
 		}
 	#owl-carousel-2.owl-carousel.owl-loaded {
 
-	    width: 95%;
-	    margin-left: 5%;
+	    width: 96%;
+	    margin-left: 4%;
 
 	}
 
@@ -1722,6 +1720,13 @@ a.footer-href{
 	}
 
     @media(max-width: 380px){
+    	.container-fluid.otziv {
+
+    		padding-left:0px;
+    		padding-right:0px;
+
+
+		}
     	
 		.blockitem {
     		width: 100%;
@@ -1732,7 +1737,7 @@ a.footer-href{
     		margin-left: 0px;
 		}
 		.container.bloks > .row {
-		    width: 100% !important;
+		    width: 345px !important;
 		    margin: 0 auto;
 		    padding-left: 0;
 		    /*border: 1px solid black;*/
@@ -1741,13 +1746,163 @@ a.footer-href{
 		    width: 98%;
 		    margin-left: 1%;
 		}
+		.container-fluid.otziv > .row {
+	  		margin: 0 auto;
+	  		/*background-color: green;*/
+	  	}
+
     }
-	  @media(max-width: 360px){
-				#owl-carousel-2 > .owl-stage-outer > .owl-stage>.owl-item.active {
-    		width: 300px !important;
+
+
+
+	  @media(max-width: 360px)
+	  {
+	  	#owl-carousel-2.owl-theme .owl-nav {
+	  		left: 25%;
+	  	}
+	  	.container-fluid.otziv > .row {
+	  		margin: 0 auto;
+	  		/*background-color: green;*/
+	  	}
+	  	#owl-carousel-2.owl-carousel.owl-loaded {
+
+    		width: 320px;
+    		margin: 0 auto ;
+    		padding-left: 0;
+		}
+	  	.otziv-item {
+	  		width: 300px;
+	  		margin-right: 10px;
+	  	}
+	  	.blockotziv {
+	  		width: 290px;
+	  	}
+	  	#owl-carousel-2{
+	  		margin-top:60px
+	  	}
+		#owl-carousel-2 > .owl-stage-outer > .owl-stage>.owl-item.active {
+    		width: 280px !important;
     		margin-left: 0px;
 		}
-	  }
+		.sliderblock {
+
+    	text-align: left;
+    	width: 240px;
+
+		}
+		.itemblock {
+
+		    height: 452px;
+		    padding: 0;
+
+		}
+		.avatar {
+			width: 80px !important;
+			height: 80px;
+		}
+		.name, .greysliderblock {
+
+		    width: 240px;
+		    margin-left: 20px;
+
+		}	
+		.how-work{
+			padding: 0;
+		}
+		.how-work .row{
+			padding: 0;
+			margin: 0;
+		}
+		.container.bloks{
+			max-width: 300px !important;
+			width: 300px !important;
+		}
+		.container.bloks > .row {
+
+		    width: 300px !important;
+		    margin: 0 auto;
+		    padding-left: 0;
+
+		}
+		#owl-carousel-1{
+			width: 300px;
+			margin: 0 auto;
+		}
+		#owl-carousel-1 .owl-stage-outer{
+			width: 100%;
+		}
+
+
+		#owl-carousel-1 .owl-item.active{
+			max-width: 280px;
+			/*background-color: red;*/
+		}
+
+		.blockitem{
+			width:280px;
+		}
+
+		h1.titleslider{
+			width: 280px;
+			margin: 0 auto;
+		}
+		h3.podzagolovok {
+			width: 280px;
+			max-height: 60px !important;
+			height: 60px;
+		}
+		h2.title-worrk{
+			width: 180px;
+			height: 30px;
+			font-weight: 500;
+			font-size: 21.33px;
+			line-height: 25px;
+		}
+		h4.workhead{
+			width: 280px;
+			font-size: 16px;
+			line-height: 20px;
+		}
+		h6.podhead {
+			width: 260px;
+			font-size: 16px;
+			line-height: 20px;
+			/*margin-bottom: 0;*/
+		}
+
+		.createTask.orange {
+
+		    width: 280px;
+		    max-width: unset;
+		    margin: 0 auto;
+		    font-size: 16px;
+			line-height: 20px;
+		    height: 56px;
+		    border-radius: 50px;
+
+		}
+		.button-orange .createTask.orange{
+			width: 205px;
+			height: 36px;
+			border-radius: 20px;
+			margin-top: 60px;
+
+		}
+		.liblock {
+
+	    	width: 280px;
+	    	margin: 0 auto;
+	    	margin-bottom: 43px;
+		}
+		.left-li-text {
+
+		    max-width: 212px;
+		    margin-left: 10px;
+
+		}
+
+
+	}
 	  @media(max-width: 350px){
 
 	  }
