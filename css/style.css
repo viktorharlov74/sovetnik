@@ -1402,6 +1402,10 @@ a.footer-href{
 
    		.row.end{
    			padding-bottom: 40px;
+   			margin-top: 20px;
+   		}
+   		.row.end .sovet{
+   			margin-top: 20px;
    		}
    		.container.bloks {
 
@@ -1445,6 +1449,11 @@ a.footer-href{
 		max-height: 50px;
 
 		}
+		footer-hr {
+
+    	margin: 20px 0px 0px 0px !important;
+	
+	}
 
 
    	}
@@ -1579,7 +1588,7 @@ a.footer-href{
 			padding: 0px 5px;
 		}
 		.container.botom{
-
+			background-color: #F4F4F4;
 		}
 
 		
