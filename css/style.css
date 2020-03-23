@@ -1598,8 +1598,8 @@ a.footer-href{
     		max-width: 230px;
 		}
 		.owl-item.active {
-    		width: 340px !important;
-    		margin-left: 6px;
+    		width: 335px !important;
+    		margin-left: 2px;
 		}
 
 	}
