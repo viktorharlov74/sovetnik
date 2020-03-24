@@ -789,9 +789,9 @@
 				$('.menu-block').fadeToggle(400);
 
 			});
-			$('#owl-carousel-1 .owl-prev').css('opacity',"0.7");
+			$('#owl-carousel-1 .owl-prev').css('opacity',"0.4");
 			$('#owl-carousel-1 .owl-prev').css('pointer-events','none');
-			$('#owl-carousel-2 .owl-prev').css('opacity',"0.7");
+			$('#owl-carousel-2 .owl-prev').css('opacity',"0.4");
 			$('#owl-carousel-2 .owl-prev').css('pointer-events','none');
 
 			function getActiveElemet(slidername) {
@@ -800,14 +800,14 @@
 			  var prev=$(slidername+' .owl-prev');
 			  var activeEL=$(slidername+' .owl-item.active .item');
 			  if (activeEL.hasClass('first-element')){
-			  		prev.css('opacity',"0.7");
+			  		prev.css('opacity',"0.4");
 			  		prev.css('pointer-events','none');
 					next.css('opacity',"1");
 					next.css('pointer-events','visible');
 					res=true;
 			  }
 			  if (activeEL.hasClass('end-element')){
-					next.css('opacity',"0.7");
+					next.css('opacity',"0.4");
 					next.css('pointer-events','none');
 					prev.css('opacity',"1");
 					prev.css('pointer-events','visible');
@@ -817,7 +817,6 @@
 				if (!res)
 				{
 					res=false;
-					console.log("фывфывф")
 					prev.css('opacity',"1");
 					next.css('opacity',"1");
 					prev.css('pointer-events','visible');
