@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Я-Советник страница не найдена</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style_404.css">
+	<script  src="js/jquery.min.js"></script>
+</head>
+<body>
+
+
+	<div class="menu-block">
+		<div class="menu-header"><a href="#"><img class="logo" src="img/black_logo.png" alt="Logo"></a>
+			</div>
+		<div class="menu-main">
+			<div class="border-bt align-self-center">
+				<div class="content-li align-self-center">
+					<span class="icons-li"><img src="img/icons/Login_ico.png" alt="ico"></span><a href="#">Войти</a>
+				</div>
+			</div>
+			<div class="border-bt align-self-center">
+				<div class="content-li align-self-center">
+					<span class="icons-li"><img src="img/icons/Frame_ico.png" alt="ico">
+					</span>
+					<a  href="#">Стать исполнителем</a>
+				</div>
+			</div>
+			<ul style="padding-left: 20px;"><li class="noborder"><a href="#" class="href-li">Создать задание</a></li>
+			<li class="noborder"><a href="#" class="href-li">Как это работает</a></li>
+			</ul>
+		</div>
+		<div class="menu-footer">
+			<div class="container">
+					<div class="row icons-menu">
+						
+						<div class="col-md-4  col-sm-4 col-4 " ><a href=""><img src="img/vk.png" alt="vk"></a></div>
+						<div class="col-md-4  col-sm-4 col-4 "><a href=""><img src="img/facebook.png" alt="fb"></a></div>
+						<div class="col-md-4  col-sm-4 col-4 "><a href=""><img src="img/instagram.png" alt="inst"></a></div>
+						
+
+					</div>
+			</div>
+			<div class="container end-menu" style="margin-top: 20px;">
+				<div class="row ">
+					<div class="col-md-12 col-sm-12 col-12"><a href="#" class="footer-href">Пользовательское соглашение</a></div>
+					<div class="col-md-12  col-sm-12 col-12 sovet"  style="margin-top: 10px;"><a href="#" class="footer-href">© 2017 Я-Советник</a></div>
+
+				</div>			
+			</div>
+
+
+		</div>
+	</div>
+
+	<div class="header">
+
+
+		<div class=" leftblock">
+			<a href="#"><img  class="logosova" src="img/black_logo.png" alt="Logo"></a>
+			<div class="href"><a href="#" class="create"> Создать задание</a></div>
+			<div class="href"><a href="#" class="howwork">Как это работает</a></div>
+		</div>
+		<div class="rightblock"> 
+			<button class="login opacity-orange" >Стать специалистом</button>
+			<button class="login orange" >Войти</button>
+		</div>
+		<div style="clear: both;">	</div>
+	</div>
+
+	<div class="mobileheader">
+		<div class="menu-mobile">
+			<img src="img/menu/burgreg_big.png" alt="burger" class="burger big-bg hide-mobile">
+			<img src="img/menu/burger_litle.png" class="burger show-mobile litle-bg"  alt="burger" >
+			<img src="img/menu/close.png" class="close-menu"  alt="close" >
+
+
+		</div>			
+		<div class=" mx-auto center-text">
+			<a href="#"><img  class="logo" src="img/black_logo.png" alt="Logo"></a>
+		</div>
+	</div>
+	<div class="main">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-4 col-md-12">
+					<div class="text-for">
+						<h1 class="fornulfor">404</h1>
+					</div>
+					<div class="sorry">
+						<p>
+							Ой, что-то пошло не так... Скоро все исправим!
+						</p>
+					</div>
+				</div>
+				<div class="col-xl-8 col-md-12 img-for">
+					<img src="img/404_img.png" alt="404">
+				</div>
+
+			</div>
+			
+		</div>
+	</div>
+</body>
+
+<script>
+		$(document).ready(function(){
+		    var width = $(window).width();
+			$('.menu-mobile').click(function(){
+				
+				if (width<=576){
+					$('.burger.litle-bg').fadeToggle(150);
+				}
+				else{
+					$('.burger.big-bg').fadeToggle(150);
+					}
+				$('.close-menu').fadeToggle(400);
+				$('.menu-block').fadeToggle(400);
+
+			});
+		});
+</script>
+</html>
