@@ -125,6 +125,9 @@ button,input.inputtext:focus {
 
 }
 
+.owl-carousel .owl-stage{
+	margin: 0 auto;
+}
 button{
 	color: #FFFFFF;
 	border-radius: 20px;
