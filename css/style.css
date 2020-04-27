@@ -629,6 +629,10 @@ a.footer-href{
 	margin-right: 40px;
 	padding: 0px;
 }
+
+.sovet{
+	margin-left: 10px;
+}
 .hrefblock>.sovet{
 	margin-top: 0px;
 }
@@ -930,11 +934,15 @@ a.footer-href{
 		    border-radius: 30px !important;
 		    width: 40px !important;
 		    height: 40px !important;
-		    content: ">" !important;
 		    background: #FE734A !important;
 
 		}
-
+		.owl-theme .owl-nav  [class*="owl-next"] {
+			content: url("../img/next.png") !important;
+		}
+		.owl-theme .owl-nav [class*="owl-prev"] {
+			content: url("../img/prev.png") !important;
+		}
 		.owl-theme .owl-nav [class*="owl-"]:hover {
 		opacity: 0.5;
 		}
