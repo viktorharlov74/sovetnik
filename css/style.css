@@ -394,6 +394,7 @@ a.create,a.howwork{
 }
 .listspec{
 	margin: 0;
+	margin-top: 106px;
 }
 
 .listspec>.col-xl-4{
@@ -431,6 +432,17 @@ a.create,a.howwork{
 
 .container-fluid.otziv{	
 	background-color: #FAFAFA;
+	margin-right: 0px;
+    padding-right: 0px;
+}
+.otziv>.row{
+	width: 100%;
+}
+
+#owl-carousel-2.owl-carousel.owl-loaded {
+    /* padding-left: 2%; */
+    margin-right: 0px;
+    margin-left: 0px;
 }
 .name{
 	font-weight: 500;
@@ -639,8 +651,12 @@ a.footer-href{
 }
 
 .first .lineimg{
-	margin-top: 77px;
-	padding-bottom: 77px;
+	margin-top: 76px;
+	padding-bottom: 38px;
+}
+.two .lineimg{
+	padding-top: 10px;
+	margin-bottom: 100px;
 }
 
 	@media (max-width: 1490px) {
@@ -1794,8 +1810,8 @@ a.footer-href{
 		    /*border: 1px solid black;*/
 		}
 		#owl-carousel-2.owl-carousel.owl-loaded {
-		    width: 98%;
-		    margin-left: 1%;
+		    width: 96%;
+		    margin-left: 4%;
 		}
 		.container-fluid.otziv > .row {
 	  		margin: 0 auto;
