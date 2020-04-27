@@ -59,7 +59,7 @@ h2.title-worrk{
 	height: 44px;
 	text-align: center;
 	letter-spacing: 0.02em;
-	width: 318px;
+	width: 348px;
 	text-align: center;
 
 
@@ -191,14 +191,14 @@ outline-style: none;
 }
 
 .howwork{
-	margin-top:150px;
+	margin-top:100px;
 }
 
 .how-work{
 	/*width: 50%;*/
 	width: 919px;		
 	margin: 0 auto;
-	margin-top: 150px;
+	margin-top: 100px;
 
 }
 
@@ -271,8 +271,18 @@ h6.podhead{
 	margin-top: 100px;
 }
 
-
-
+a.create,a.howwork{
+	color: #FFFFFF;
+}
+.ssilkiblock,.logodiv{
+	float: left;
+}
+.ssilkiblock{
+	margin-top: 20px;
+}
+.rightblock{
+	margin-top: 10px;
+}
 .example.black{	
 	color: #1A1A1A;
 	width: 360px;
@@ -613,7 +623,7 @@ a.footer-href{
 
 
 .end-form{
-	margin-bottom: 108px;
+	margin-bottom: 100px;
 }
 
 
@@ -628,6 +638,10 @@ a.footer-href{
 	display: none;
 }
 
+.first .lineimg{
+	margin-top: 77px;
+	padding-bottom: 77px;
+}
 
 	@media (max-width: 1490px) {
 
