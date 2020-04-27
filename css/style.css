@@ -411,6 +411,8 @@ a.create,a.howwork{
 	width: 80%;
 	max-width: 316px;
 	text-align: left;
+	height: 64px;
+	padding-top: 10px;
 }
 .left-li-text>h3{
 	font-weight: normal;
@@ -587,12 +589,17 @@ a.footer-href{
 	border-radius: 30px !important;
 	width: 40px !important;
 	height: 40px !important;
-	content: ">" !important;
 	background: #FE734A !important;
 	text-align: center;
 
 }
 
+#owl-carousel-2.owl-theme .owl-nav  [class*="owl-next"] {
+	content: url("../img/next.png") !important;
+}
+#owl-carousel-2.owl-theme .owl-nav [class*="owl-prev"] {
+	content: url("../img/prev.png") !important;
+}
 #owl-carousel-2.owl-theme .owl-nav [class*="owl-"]:hover {
 	opacity: 0.5;
 }
@@ -649,18 +656,48 @@ a.footer-href{
 .menu-block{
 	display: none;
 }
-
 .first .lineimg{
-	margin-top: 76px;
-	padding-bottom: 38px;
+	margin-top: 55px;
+	padding-bottom: 25px;
 }
 .two .lineimg{
 	padding-top: 10px;
+	margin-bottom: 80px;
+}
+.tree .lineimg1{
+	margin-top: 10px;
+	padding-bottom: 26px;
+}
+
+.forth .lineimg2
+{
+		padding-top: 160px;
 	margin-bottom: 100px;
 }
 
 	@media (max-width: 1490px) {
 
+		.how-work{
+			margin-top: 60px;
+		}
+		.first .lineimg{
+			margin-top: 76px;
+			padding-bottom: 38px;
+		}
+		.two .lineimg{
+			padding-top: 10px;
+			margin-bottom: 100px;
+		}
+		.tree .lineimg1{
+			margin-top: 20px;
+			padding-bottom: 46px;
+		}
+
+		.forth .lineimg2
+		{
+				padding-top: 160px;
+			margin-bottom: 100px;
+		}
 		.imgblocknew {
 
 	    max-width: 303px;
