@@ -1549,6 +1549,9 @@ a.footer-href{
    	}
 
 	@media(max-width: 480px){
+		.sovet{
+			margin-left: 0px;
+		}
 
 		.line{
 
